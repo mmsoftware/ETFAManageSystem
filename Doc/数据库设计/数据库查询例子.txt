@@ -1,0 +1,23 @@
+select Members.ID  from StoreComponents 
+left join Members on
+StoreComponents.MembersID = Members.ID
+left join Components on
+StoreComponents.ComponentsID = Components.ID
+join Suppilers on
+StoreComponents.SuppilersID = Suppilers.ID
+几点注意：获得的字段要用 表名.字段名 获取
+jion：连接两个表，左右表都存在才会连接，连接依据是根据ON来进行设置
+left jion:左连接，左表全部显示，右表如果没有则为空值显示
+on:筛选条件
+其中所有都是依据外键来进行查询和过滤的，如果外键的值不存在，数据库可能会报错
+本地用SQLite，要每次删除所有的数据，然后将供应商和器件两个基本表下载数据到本地。
+基本表：
+Componets：器件表
+Members：成员表
+Suppilers：供应商
+扩展表：
+StoreComponents：库存器件表，含有所有库存器件
+ComponentsUse：使用器件，用于登记每次使用
+比较独立的两张表：
+Apply：申请表
+ApplyDetail：申请详单
