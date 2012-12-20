@@ -1,5 +1,5 @@
 <Screen
-	CID = "1580889355"
+	CID = "1912169089"
 	AppID = "2"
 	AppVer = "4.2.111.0"
 	DocID = ""
@@ -12,10 +12,10 @@
 	<Elements
 		CID = "1">
 		<Element
-			CID = "2096387256"
+			CID = "960706478"
 			Type = "WebPanel"
-			X = "-46"
-			Y = "53"
+			X = "-32"
+			Y = "135"
 			Width = "380"
 			Height = "287"
 			Flags = "0"
@@ -53,10 +53,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "2096394088"
+			CID = "960697944"
 			Type = "GroupBox"
-			X = "-27"
-			Y = "83"
+			X = "-13"
+			Y = "165"
 			Width = "341"
 			Height = "72"
 			Flags = "0"
@@ -70,10 +70,10 @@
 			TextOutsideExtent = "0"
 			IsDisabled = "0"/>
 		<Element
-			CID = "2096375918"
+			CID = "960723403"
 			Type = "GroupBox"
-			X = "-29"
-			Y = "170"
+			X = "-15"
+			Y = "252"
 			Width = "343"
 			Height = "127"
 			Flags = "0"
@@ -87,10 +87,10 @@
 			TextOutsideExtent = "0"
 			IsDisabled = "0"/>
 		<Element
-			CID = "2096368396"
+			CID = "960701323"
 			Type = "TextButton"
-			X = "143"
-			Y = "311"
+			X = "157"
+			Y = "393"
 			Width = "75"
 			Height = "23"
 			Flags = "0"
@@ -108,10 +108,10 @@
 			MarginBottom = "0"
 			AutoNavType = ""/>
 		<Element
-			CID = "2096398162"
+			CID = "960721581"
 			Type = "TextButton"
-			X = "235"
-			Y = "310"
+			X = "249"
+			Y = "392"
 			Width = "75"
 			Height = "23"
 			Flags = "0"
@@ -129,10 +129,10 @@
 			MarginBottom = "0"
 			AutoNavType = ""/>
 		<Element
-			CID = "2096381580"
+			CID = "960693782"
 			Type = "StaticText"
-			X = "-1"
-			Y = "111"
+			X = "13"
+			Y = "193"
 			Width = "45"
 			Height = "21"
 			Flags = "0"
@@ -147,10 +147,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "2096372586"
+			CID = "960714656"
 			Type = "EditBox"
-			X = "50"
-			Y = "111"
+			X = "64"
+			Y = "193"
 			Width = "70"
 			Height = "21"
 			Flags = "2"
@@ -177,10 +177,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "2096376093"
+			CID = "960714015"
 			Type = "StaticText"
-			X = "144"
-			Y = "111"
+			X = "158"
+			Y = "193"
 			Width = "45"
 			Height = "21"
 			Flags = "0"
@@ -195,10 +195,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "2096396112"
+			CID = "960693757"
 			Type = "EditBox"
-			X = "195"
-			Y = "111"
+			X = "209"
+			Y = "193"
 			Width = "98"
 			Height = "21"
 			Flags = "2"
@@ -225,10 +225,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "2096380478"
+			CID = "960706625"
 			Type = "EditBoxMultiLine"
-			X = "-17"
-			Y = "193"
+			X = "-3"
+			Y = "275"
 			Width = "319"
 			Height = "87"
 			Flags = "0"
@@ -270,7 +270,7 @@
 	<Notes
 		CID = "5">
 		<Note
-			CID = "1580861045"
+			CID = "1912168449"
 			Name = "Description"
 			NextCID = "2">
 			<Text

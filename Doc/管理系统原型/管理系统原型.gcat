@@ -1,0 +1,17 @@
+<Catalogue
+	CID = "1"
+	NextCID = "2">
+	<Files
+		CID = "1">
+		<FileInfo
+			ID = "D5C73616-AEF9-439E-96083824A3A8960D"
+			RelativePath = "提示界面\消息和通知.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "提示界面\消息和通知.gui"/>
+		<FileInfo
+			ID = "ECAE526F-0511-4B58-9B96B96A3D0DDEA9"
+			RelativePath = "开始界面\开始界面效果图.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "开始界面\开始界面效果图.gui"/>
+	</Files>
+</Catalogue>

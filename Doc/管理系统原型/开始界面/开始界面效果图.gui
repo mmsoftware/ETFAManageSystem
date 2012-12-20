@@ -1,0 +1,140 @@
+<Screen
+	CID = "1658349349"
+	AppID = "2"
+	AppVer = "4.2.111.0"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "640"
+	Height = "480"
+	NextCID = "6"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1">
+		<Element
+			CID = "46097011"
+			Type = "FrameWindow"
+			X = "74"
+			Y = "107"
+			Width = "796"
+			Height = "554"
+			Flags = "0"
+			WindowColour = "172,168,153,0,13"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "Normal"
+			Title = "Maximised Application"
+			TitleBarHeight = "18"
+			IconMargin = "0"
+			BorderSize = "1"
+			IsBorderless = "1"
+			IsActive = "1"
+			IsDocWindow = "0"
+			HasSunkenWindow = "1"
+			CentreText = "0"
+			UseMutedColours = "0"
+			Mirror = "0"
+			Buttons = "11"
+			Icon = "DefaultApp"/>
+		<Element
+			CID = "46082904"
+			Type = "MenuBar"
+			X = "74"
+			Y = "126"
+			Width = "791"
+			Height = "22"
+			Flags = "2"
+			TopEdge = "Flat"
+			BottotmEdge = "Raised"
+			LeftEdge = "Flat"
+			RightEdge = "Flat"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			NextItemID = "6"
+			LeftMargin = "0"
+			Mirror = "0">
+			<MenuBarItem
+				Item = "&amp;File"
+				ItemID = "1"/>
+			<MenuBarItem
+				Item = "&amp;Edit"
+				ItemID = "2"/>
+			<MenuBarItem
+				Item = "&amp;View"
+				ItemID = "3"/>
+			<MenuBarItem
+				Item = "&amp;Window"
+				ItemID = "4"/>
+			<MenuBarItem
+				Item = "&amp;Help"
+				ItemID = "5"/>
+		</Element>
+		<Element
+			CID = "46094919"
+			Type = "Toolbar"
+			X = "74"
+			Y = "631"
+			Width = "796"
+			Height = "30"
+			Flags = "2"
+			TopEdge = "Groove"
+			BottotmEdge = "Raised"
+			LeftEdge = "Flat"
+			RightEdge = "Flat"/>
+		<Element
+			CID = "46089556"
+			Type = "StaticText"
+			X = "596"
+			Y = "638"
+			Width = "72"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "255,0,0,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "消息和通知(5)"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "46079637"
+			Type = "StaticText"
+			X = "668"
+			Y = "638"
+			Width = "192"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "当前时间：2012-05-03 12：12：12"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+	</Elements>
+	<Connections
+		CID = "2"/>
+	<Groups
+		CID = "3"/>
+	<SelectionGroups
+		CID = "4"/>
+	<Notes
+		CID = "5">
+		<Note
+			CID = "1658327781"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>
