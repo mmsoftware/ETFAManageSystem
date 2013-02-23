@@ -2,8 +2,8 @@ object ETFAManageSystemForm: TETFAManageSystemForm
   Left = 0
   Top = 0
   Caption = #23884#20837#24335#25216#26415#29233#22909#32773#21327#20250#31649#29702#31995#32479
-  ClientHeight = 306
-  ClientWidth = 591
+  ClientHeight = 329
+  ClientWidth = 670
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,8 +17,8 @@ object ETFAManageSystemForm: TETFAManageSystemForm
   TextHeight = 13
   object status: TStatusBar
     Left = 0
-    Top = 287
-    Width = 591
+    Top = 310
+    Width = 670
     Height = 19
     Panels = <
       item
@@ -32,7 +32,7 @@ object ETFAManageSystemForm: TETFAManageSystemForm
       item
         Alignment = taRightJustify
         Text = #24403#21069#26102#38388#65306
-        Width = 50
+        Width = 90
       end>
   end
   object mmMenu: TMainMenu

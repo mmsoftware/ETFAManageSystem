@@ -202,6 +202,7 @@ object ManageInfoForm: TManageInfoForm
       Height = 25
       Caption = #20445#23384
       TabOrder = 0
+      OnClick = btn3Click
     end
   end
   object pm1: TPopupMenu

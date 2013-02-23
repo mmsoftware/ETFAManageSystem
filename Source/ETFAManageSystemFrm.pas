@@ -67,7 +67,7 @@ var
 implementation
 
 uses
-  uBaseFunction, uBaseConst;
+  uBaseFunction, uBaseConst, ETFAEngineUnits;
 const
   CNowTime = '当前时间：%s';
 
@@ -133,7 +133,10 @@ procedure TETFAManageSystemForm.MbtnLoadInClick(Sender: TObject);
   end;
 var
   oLoadIn: TLoadInForm;
+  oSQLETFA: TETFA;
 begin
+//  oSQLETFA := oSQLETFA.Create('');
+
   oLoadIn := TLoadInForm.Create(nil);
   try
     if oLoadIn.ShowModal <> mrOk then Exit;
@@ -196,7 +199,7 @@ end;
 
 procedure TETFAManageSystemForm.tmrTimer(Sender: TObject);
 begin
-  status.Panels[2].Text := Format(CNowTime, [DateTimeToStr(Now)]);
+  status.Panels[2].Text := Format(CNowTime, [DateTimeToStr(Now)]) + '    ';
 end;
 
 end.

@@ -244,7 +244,7 @@ type
     destructor Destroy; override;
 
     function GetMembers: TMembers;
-    function SetMembers(const AMembers: TMembers): Boolean;
+    function SetMembers(AMembers: TMembers): Boolean;
     function GetSuppilers: TSuppilers;
     function GetSuppilersBySearch(const AName, AMore: string): TSuppilers;
     function SetSuppilers(const ASuppilers: TSuppilers): Boolean;
@@ -415,7 +415,7 @@ begin
 
 end;
 
-function TETFA.SetMembers(const AMembers: TMembers): Boolean;
+function TETFA.SetMembers(AMembers: TMembers): Boolean;
 begin
 
 end;
